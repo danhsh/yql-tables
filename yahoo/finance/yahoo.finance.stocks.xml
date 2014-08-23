@@ -2,7 +2,7 @@
 <table xmlns="http://query.yahooapis.com/v1/schema/table.xsd">
   <meta>
     <author>Tom Powers, Updated by Raymond Li, Daniel Ho</author>
-    <description>Yahoo Finance Stock Summary Information</description>
+    <description>Yahoo Finance Stock Summary Information (Extra)</description>
     <sampleQuery>select * from {table} where symbol="yhoo"</sampleQuery>
     <sampleQuery>select * from {table} where symbol in ("yhoo", "nvt.ax")</sampleQuery>
   </meta>
