@@ -197,7 +197,7 @@
     var profileQuery = y.query(
     "select * from html " +
 	    "where url=@url and " + "compat=\"html5\" and " + 
-	    "xpath='//table[@class=\"yfnc_datamodoutline1\"]/tbody/tr/td/table/tbody/tr | //td[@class=\"yfnc_modtitlew1\"]/b' | //table[@class=\"yfnc_datamodoutline1\"]/following-sibling::p[1]' " +
+	    "xpath='//table[@class=\"yfnc_datamodoutline1\"]/tbody/tr/td/table/tbody/tr | //td[@class=\"yfnc_modtitlew1\"]/b | //table[@class=\"yfnc_datamodoutline1\"]/following-sibling::p[1]' " +
         "limit 6",
         {url:url});
 
