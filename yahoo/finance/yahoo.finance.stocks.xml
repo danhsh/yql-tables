@@ -4,7 +4,7 @@
     <author>Tom Powers, Updated by Raymond Li, Daniel Ho</author>
     <description>Yahoo Finance Stock Summary Information</description>
     <sampleQuery>select * from {table} where symbol="yhoo"</sampleQuery>
-    <sampleQuery>select * from {table} where symbol in ("yhoo", "ntap", "ge")</sampleQuery>
+    <sampleQuery>select * from {table} where symbol in ("yhoo", "nvt.ax")</sampleQuery>
   </meta>
   <bindings>
     <select itemPath="" produces="XML">
